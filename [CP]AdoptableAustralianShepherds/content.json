@@ -1,0 +1,43 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+
+    {
+        "LogName": "MiniAussie",
+        "Action": "EditData",
+        "Target": "Data/Pets",
+        "TargetField": ["Dog", "Breeds"],
+        "Entries":{
+            "Objection777.ObjectionsAussieDogMod.MiniAussie":{
+                "Id": "Objection777.ObjectionsAussieDogMod.MiniAussie",
+                "Texture": "Mods\\Objection777.ObjectionsAussieDogMod\\MiniAussie",
+                "IconTexture": "Mods\\Objection777.ObjectionsAussieDogMod\\icons",
+                "IconSourceRect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 16,
+                    "height":16
+                },
+                "CanBeChosenAtStart": true,
+                "CanBeAdoptedFromMarnie": true,
+                "AdoptionPrice": 40000,
+                "BarkOverride": null,
+                "VoicePitch": 1.7
+            },
+        },
+
+
+    },
+
+    {
+        "LogName": "Load dog pics",
+        "Action": "Load",
+        "Target": "Mods/Objection777.ObjectionsAussieDogMod\\MiniAussie, Mods\\Objection777.ObjectionsAussieDogMod\\icons",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+
+
+
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Objection's Adoptable Australian Shepherds",
+    "Author": "Objection777",
+    "Version": "1.0.1",
+    "Description": "Adds a new dog breed, the Aussie/Mini Aussie!",
+    "UniqueID": "Objection777.ObjectionsAussieDogMod",
+    "UpdateKeys": ["Nexus:21522"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}
